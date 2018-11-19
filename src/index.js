@@ -15,10 +15,8 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/", battle);
+
 let port = 8080;
-
-app.get("/", (req, res) => res.send("Hello Ragini!"));
-
 app.listen(port, () => {
   console.log("Server is up and running on port numner " + port);
 });
