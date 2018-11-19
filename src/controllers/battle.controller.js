@@ -1,6 +1,5 @@
 const Battle = require("../models/battle.model");
 
-//Simple version, without validation or sanitation
 exports.test = function(req, res) {
   console.log("Connection Tested!");
   res.send("Connection Tested!");
