@@ -6,13 +6,13 @@ Built on Express.js with mongoDB.
 
 3) Routes 
 
-    a) "/" => Test
+    a) "http://localhost:8080/" => Test
 
-    b) "/list" => List of all locations
+    b) "http://localhost:8080/list" => List of all locations
 
-    c) "/search" => Search by King name or location or type
+    c) "http://localhost:8080/search" => Search by King name or location or type
 
-    d) "/count" => Count of total documents
+    d) "http://localhost:8080/count" => Count of total documents
 
-    e) "/stats" => Stats 
+    e) "http://localhost:8080/stats" => Stats 
 
