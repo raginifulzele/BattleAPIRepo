@@ -1,8 +1,10 @@
 Built on Express.js with mongoDB.
 
-1) To Run "npm run start" 
+1) Install dependencies with "npm install"
 
-2) Routes 
+2) Run with "npm run start" 
+
+3) Routes 
 
     a) "/" => Test
 
